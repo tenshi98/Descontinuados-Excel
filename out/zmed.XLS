@@ -1,0 +1,525 @@
+18.04.2011                                                                                                  Salida dinámica de lista                                                                                                          1
+
+
+	Ce.	Aviso	Status	Descripción	Texto código medidas	Texto-medidas	Status	Ini.prev.	Fin planif	Denominación ejecutante
+
+	1102	200006821	MECE CPRO MERE	Sulfuroso Libre bajo Tolerancia	Dictar charla al operador		MEEJ	28.06.2008	28.06.2008
+	1102	200006822	MECE CPRO MERE	Vino con agua	Dictar charla al operador		MEEJ	27.06.2008	27.06.2008
+	1102	200006859	MECE CPRO MERE	SO2 Libre bajo tolerancia	Dictar curso al operador		MEEJ	27.06.2008	27.06.2008
+	1102	200006860	MECE CPRO MERE	Vino con Sulfuroso bajo (32-->38)	Dictar charla al operador		MEEJ	28.06.2008	28.06.2008
+	1011	200006877	MECE CPRO MERE	Botella con corcho levantado	Actualizar procedimiento	No exponer pallet a almacenamiento bajo	MEEJ	13.02.2008	13.02.2008
+	1011	200006918	MECE CAEX MERE	Filtración de bolsas	Crear RPI  (Reclamo Proveedor Insumo)	200007015/7064	MEEJ	30.06.2008	30.06.2008
+	1011	200006921	MECE CPRO MERE	SO2 Libre bajo tolerancia	Modificar especificación de insumo	sullfitar con anticipacion antes de desp	MEEJ	06.02.2009	06.02.2009
+	1011	200006930	MECE CPRO MERE	Etiqueta rev. le falta indicar  volumen	Modificar arte de insumo	Desarrollo cono sur	MEEJ	26.12.2009	26.12.2009	CRISTIAN ANDRES TORO AVILES
+	1011	200006937	MECE CPRO MERE	Cápsulas peladas en falda, def. botella	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ	31.07.2008	31.07.2008	FELIPE ROMAN POBLETE
+	1011	200007034	MECE CPRO MERE	Sulfuroso bajo, tiene 34	Crear flujo de proceso	envio de muestras previo al envasado	MEEJ	21.04.2008	21.04.2008
+	1011	200007035	MECE CPRO MERE	Sulfuroso bajo, medición arroja 34ml/g	Crear flujo de proceso	envio de muestrasl previo al envasado	MEEJ	21.04.2008	21.04.2008
+	1103	200007084	MECE CPRO MERE	Nivel de llenado bajo especificación	Dictar charla al operador		MEEJ	14.03.2008	14.03.2008
+	1011	200007159	MECE CPRO MERE	Contaminaciòn microbiològica (levaduras)	Reemplazo de dispositivo de control	reemplazo elemento  electrico de rinser	MEEJ	29.04.2008	29.04.2008
+	1102	200007367	MECE CPRO MERE	Microbiología fuera de parámetros	Dictar charla al operador		MEEJ	27.06.2008	27.06.2008	ORIELLE MEZA CASTIGLIONE
+	1102	200007395	MECE CPRO MERE	Microbiología fuera de parámetros	Dictar charla al operador		MEEJ	27.06.2008	27.06.2008
+	1011	200007590	MECE CPRO MERE	Vino con particulas de vidrio	Verificación de autocontrol realizado		MEEJ	01.07.2008	01.07.2008	LUIS PEZO ANRIQUEZ
+	1102	200007940	MECE CPRO MERE	Mic.fuera de parámetros a las 04:15 hrs.	Crear plan de mantención		MEEJ	27.06.2008	27.06.2008
+	1011	200007951	MECE CPRO MERE	Botellas con Nivel de llenado bajo	Estudio específico	Bajo el método gravimétrico	MEEJ	23.12.2009	23.12.2009	JUAN CARLOS ARANCIBIA CORVALAN
+	1011	200007951	MECE CPRO MERE	Botellas con Nivel de llenado bajo	Crear instructivo		MEEJ	23.12.2009	23.12.2009	JUAN CARLOS ARANCIBIA CORVALAN
+	1011	200007951	MECE CPRO MERE	Botellas con Nivel de llenado bajo	Actualizar Matriz		MEEJ	09.07.2008	09.07.2008
+	1102	200007960	MECE CPRO MERE	Mic.fuera de parámetros a las 04:15 hrs.	Crear plan de mantención		MEEJ	27.06.2008	27.06.2008
+	1102	200007961	MECE CPRO MERE	Filtro cartucho alta carga microbiológic	Evaluación de técnica de máquina		MEEJ	27.06.2008	27.06.2008
+	1102	200007962	MECE CPRO MERE	Filtro cartucho alta carga microbiológic	Evaluación de técnica de máquina		MEEJ	27.06.2008	27.06.2008
+	1011	200008053	MECE CPRO MERE	Sodio fuera de especificación legal	Informar al enólogo		MEEJ	02.07.2008	02.07.2008
+	1011	200008095	MECE CPRO MERE	reversos sin porcentaje en cepas	Modificar arte de insumo	Se crea planilla publica	MEEJ	25.07.2008	31.07.2008	LESLIE WRIGHTON BARAHONA
+	1011	200008096	MECE CPRO MERE	reversos sin porcentaje en cepas	Modificar arte de insumo	Se crea planilla publica	MEEJ	25.07.2008	31.07.2008	LESLIE WRIGHTON BARAHONA
+	1011	200008097	MECE CPRO MERE	reversos sin porcentaje en cepas	Modificar arte de insumo	Se crea planilla publica	MEEJ	25.07.2008	31.07.2008	LESLIE WRIGHTON BARAHONA
+	1011	200008102	MECE CPRO MERE	Falta valle de origen	Modificar arte de insumo	Planilla seguimientos	MEEJ	25.07.2008	31.07.2008	LESLIE WRIGHTON BARAHONA
+	1011	200008103	MECE CPRO MERE	Falta valle de origen	Modificar arte de insumo	Se crea planilla publica	MEEJ	25.07.2008	31.07.2008	LESLIE WRIGHTON BARAHONA
+	1011	200008108	MECE CPRO MERE	Bajada a rejilla (en cajas)	Bloqueo del material		MEEJ	10.07.2008	22.12.2009	SUBGERENCIA PACKAGING
+	1011	200008111	MECE CPRO MERE	Falta valle de origen	Modificar arte de insumo	Se crea planilla publica	MEEJ	25.07.2008	31.07.2008	LESLIE WRIGHTON BARAHONA
+	1011	200008120	MECE CPRO MERE	Etiqueta frente mal diseñada	Modificar arte de insumo	Se crea planilla publica	MEEJ	25.07.2008	31.07.2008	LESLIE WRIGHTON BARAHONA
+	1011	200008162	MECE CPRO MERE	Etiqueta con valles mezclados	Auditar instructivo	incumplimiento de procedimiento enva	MEEJ	21.12.2009	21.12.2009
+	1011	200008231	MECE CPRO MERE	SO2 libre bajo rango establecido	Dictar LUP al operador	Informa procedimiento de ajuste	MEEJ	18.07.2008	18.07.2008
+	1011	200008463	MECE CPRO MERE	Diferencia en G:A entre el Fte y Reverso	Cambio de lista de materiales		MEEJ	31.08.2008	31.08.2008
+	1011	200008463	MECE CPRO MERE	Diferencia en G:A entre el Fte y Reverso	Dictar charla al operador		MEEJ	31.08.2008	31.08.2008	PABLO SALAZAR CAÑON
+	1011	200008491	MECE CPRO MERE	Cubrecaja no correponde	Dictar charla al operador	Reinstrccion operador marcado cajas	MEEJ	14.08.2008	14.08.2008	DANIEL VALENZUELA AREVALO
+	1011	200008491	MECE CPRO MERE	Cubrecaja no correponde	Dictar charla al operador	Reinstrccion operador embalado	MEEJ	11.08.2008	11.08.2008	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200008551	MECE CPRO MERE	Bajada a rejilla (cajas)	Cambio de lista de materiales		MEEJ	01.09.2008	01.09.2008	JESSICA ALICIA VARGAS ALFARO
+	1011	200008552	MECE CPRO MERE	Bajada a rejilla (en cajas)	Cambio de lista de materiales	Cambio de etiq	MEEJ	31.08.2008	31.08.2008
+	1102	200008590	MECE CAEX MERE	Bot no corres/Falta text. no cont.Gluten	Dictar charla al operador	sobre manejo de , autocontrol	MEEJ	20.08.2008	27.08.2008
+	1102	200008614	MECE CPRO MERE	botellas  sin  etiquetas	Modificar Matriz	revisar  etiquetas	MEEJ	25.11.2009	25.11.2009	SUBGERENCIA SUPPLY CHAIN
+	1011	200008651	MECE CPRO MERE	Etiqueta fte. mal asignada	Dictar charla al operador		MEEJ	07.12.2009	07.12.2009	PABLO SALAZAR CAÑON
+	1011	200008651	MECE CPRO MERE	Etiqueta fte. mal asignada	Cambio de lista de materiales		MEEJ	07.12.2009	07.12.2009
+	1011	200008671	MECE CPRO MERE	Etiqueta reverso mal creada	Cambio de lista de materiales		MEEJ	31.08.2008	31.08.2008
+	1011	200008677	MECE CPRO MERE	bajada a rejilla	Dictar charla al operador		MEEJ	31.08.2008	31.08.2008	PABLO SALAZAR CAÑON
+	1011	200008677	MECE CPRO MERE	bajada a rejilla	Cambio de lista de materiales		MEEJ	31.08.2008	31.08.2008
+	1011	200008714	MECE CPRO MERE	Etiqueta FTE mal asignada.	Cambio de lista de materiales	Se corre list de materiales	MEEJ	05.09.2008	05.09.2008
+	1011	200008751	MECE CPRO MERE	cosecha reverso no coresponde	Cambio de lista de materiales	Se corre list de materiales	MEEJ	05.09.2008	05.09.2008
+	1011	200008761	MECE CPRO MERE	Etiqueta FTE mal asignada.	Cambio de lista de materiales	Se corre list de materiales	MEEJ	05.09.2008	05.09.2008
+	1011	200008793	MECE CPRO MERE	Falta texto "no contiene Gluten"en etiqu	Solicitar creación especif. de insumo	Se agrega sticker	MEEJ	14.09.2008	14.09.2008
+	1102	200008794	MECE CPRO MERE	Falta texto "no contiene Gluten"en etiqu	Solicitar creación especif. de insumo	Se agrega sticker	MEEJ	14.09.2008	14.09.2008
+	1011	200008795	MECE CPRO MERE	Falta texto "no contiene Gluten"en etiqu	Solicitar creación especif. de insumo	Se agrega sticker	MEEJ	14.09.2008	14.09.2008
+	1102	200008796	MECE CPRO MERE	Falta texto "no contiene Gluten"en etiqu	Solicitar creación especif. de insumo		MEEJ	14.09.2008	14.09.2008
+	1102	200008797	MECE CPRO MERE	Falta texto "no contiene Gluten"en etiqu	Solicitar creación especif. de insumo		MEEJ	14.09.2008	14.09.2008
+	1011	200008798	MECE CPRO MERE	Falta texto "no contiene Gluten"en etiqu	Solicitar creación especif. de insumo		MEEJ	14.09.2008	14.09.2008
+	1011	200008829	MECE CPRO MERE	bajada a rejilla (cajas)	Cambio de lista de materiales	Se cambia lista de materiales	MEEJ	14.09.2008	14.09.2008
+	1011	200008848	MECE CPRO MERE	Lote de etiqueta  no se ve	Modificar especificación de insumo	Se incluye recuadro	MEEJ	14.09.2008	14.09.2008
+	1011	200008849	MECE CPRO MERE	Bajada a rejillas	Cambio de lista de materiales	Se cambia lista de materiales	MEEJ	14.09.2008	14.09.2008
+	1011	200009501	MECE CAEX MERE	Botellas con Calcinadura	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ	17.11.2008	17.11.2008	PAMELA MURILLO QUINTANILLA
+	1011	200009565	MECE CPRO MERE	caja no corresponde	Modificar SAP		MEEJ	09.12.2009	09.12.2009	RODRIGO ANTONIO QUINCHAVIL GONZALEZ
+	1011	200009610	MECE CPRO MERE	Contaminación Microbiológica	Actualizar instructivo		MEEJ	10.12.2008	09.01.2009
+	1011	200009693	MECE CPRO MERE	Presencia de levaduras fermentativas	Actualizar instructivo	IT-LA-02-01	MEEJ	22.12.2008	09.01.2009
+	1011	200009951	MECE CPRO MERE	Botellas manchadas con adhesivo	Modificar máquina	Se ajustó y modifico sensores.	MEEJ	07.01.2009	10.01.2009
+	1011	200010019	MECE CPRO MERE	impresion de loteo no correspondiente	Crear autocontrol	Autocontroles crusados.	MEEJ	17.02.2009	18.02.2009
+	1011	200010020	MECE CPRO MERE	impresion de loteo no corresponde	Crear autocontrol	Autocontroles crusados.	MEEJ	17.02.2009	17.04.2009
+	1011	200010079	MECE CPRO MERE	Falta un numero en el lote y etiq. rev	Crear autocontrol	Autocontroles crusados.	MEEJ	17.02.2009	17.04.2009
+	1011	200010124	MECE CPRO MERE	codigo de cosecha no corresponde y bajad	Cambio de lista de materiales	se cambia por E37977-2008	MEEJ	19.01.2009	19.01.2009
+	1103	200010268	MECE CPRO MERE	Gas (CO2) bajo especificación	Reemplazo de dispositivo de control	Cambio sello vastagos	MEEJ	02.02.2009	27.02.2009
+	1103	200010268	MECE CPRO MERE	Gas (CO2) bajo especificación	Crear instructivo	Crear instructivo revisión resultados	MEEJ	02.02.2009	27.02.2009
+	1103	200010268	MECE CPRO MERE	Gas (CO2) bajo especificación	Informar al enólogo	revalidación laboratorio	MEEJ	02.02.2009	27.02.2009	MARISOL ALCAYAGA MARTINEZ
+	1103	200010268	MECE CPRO MERE	Gas (CO2) bajo especificación	Evaluación de técnica de máquina	Inspeccion diaria valvulas	MEEJ	02.02.2009	13.02.2009
+	1103	200010268	MECE CPRO MERE	Gas (CO2) bajo especificación	Crear flujo de proceso	Crear protocolo prod-lab vespucio	MEEJ	02.02.2009	27.02.2009
+	1103	200010268	MECE CPRO MERE	Gas (CO2) bajo especificación	Validar flujo de proceso	Analisis flujo inf en Plantas	MEEJ	02.02.2009	27.02.2009
+	1011	200010295	MECE CPRO MERE	Etiqueta no se adhiere a botella	Crear flujo de proceso	flujo adhesivo	MEEJ	24.04.2009	24.04.2009	VICTOR IVAN NITOR TORRES
+	1011	200010295	MECE CPRO MERE	Etiqueta no se adhiere a botella	Crear flujo de proceso	bombas adhesivo	MEEJ	24.04.2009	24.04.2009
+	1011	200010295	MECE CPRO MERE	Etiqueta no se adhiere a botella	Evaluación de técnica de máquina	formatos	MEEJ	31.05.2009	31.05.2009	ROBERTO DURAN BRAVO
+	1011	200010295	MECE CPRO MERE	Etiqueta no se adhiere a botella	Evaluación de técnica de máquina	muebles etiquetas	MEEJ	24.04.2009	24.04.2009	VICTOR IVAN NITOR TORRES
+	1011	200010430	MECE CPRO MERE	Vino no corresponde/Bajada a rejilla	Crear procedimiento	Canal de comunicación formal	MEEJ	19.02.2009	16.04.2009
+	1011	200010434	MECE CPRO MERE	CO2 bajo tolerancia	Modificar máquina	se baja la presion  de empuje hacia L5	MEEJ	19.02.2009	19.02.2009
+	1011	200010471	MECE CPRO MERE	Bajada a rejilla	Crear plan de mantención	Mant. Preventiva	MEEJ	02.01.2010	02.01.2010	JORGE MANUEL ROJAS ESPINOZA
+	1103	200010512	MECE CPRO MERE	Partícula de grasa	Crear instructivo		MEEJ	18.05.2009	18.05.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Modificar máquina	mueble almacenamiento formatos	MEEJ	27.11.2009	27.11.2009	VICTOR GABRIEL TRONCOSO OPAZO
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Crear plan de mantención	mantencion bombas adhesivo	MEEJ	27.11.2009	27.11.2009	ALAMIRO SDO. RUBIO AYALA
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Modificar máquina	Mantencion barandas	MEEJ	27.11.2009	27.11.2009	ALAMIRO SDO. RUBIO AYALA
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Implementar control	Identificación de todos los formatos (le	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Crear plan de mantención	mantención cuchillo corte adhesivo	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Evaluación de técnica de máquina	compra formato	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Modificar máquina	zona embalado	MEEJ	27.11.2009	27.11.2009	MARCO ANTONIO PONZANO BRAVO
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Evaluación de técnica de máquina	sensores acumulación	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Actualizar matriz de habilidades	capacitación adhesivos	MEEJ	27.11.2009	27.11.2009	PABLO SALAZAR CAÑON
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Cambiar forma de carga	carta de cambio	MEEJ	27.11.2009	27.11.2009	VICTOR GABRIEL TRONCOSO OPAZO
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Crear estándar	ajuste de barandas	MEEJ	27.11.2009	27.11.2009	MARCO ANTONIO PONZANO BRAVO
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Evaluación de técnica de máquina	lubricadores Ecolab	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Crear flujo de proceso	flujo adhesivos	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Modificar máquina	nuevos secadores linea	MEEJ	27.11.2009	27.11.2009	MARCO ANTONIO PONZANO BRAVO
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Crear plan de mantención	mantención a etiquetadora	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Evaluación de técnica de máquina	cambio planchador banda	MEEJ	27.11.2009	27.11.2009	MARCO ANTONIO PONZANO BRAVO
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Evaluación de técnica de máquina	soporte sensor loteo	MEEJ	27.11.2009	27.11.2009
+	1102	200010536	MECE CPRO MERE	Etiquetas sucias, rotas y despegadas	Instalación de dispositivo de control	inspector de nivel	MEEJ	27.11.2009	27.11.2009	MARCO ANTONIO PONZANO BRAVO
+	1011	200010582	METR CPRO MEAB	Etiquetas despegadas	Crear procedimiento	Crear Instructivo recepción adhesivos	MDAB
+	1011	200010582	METR CPRO MEAB	Etiquetas despegadas	Crear procedimiento	IT debe contemplar fecha de vencimiento	MDAB
+	1011	200010582	METR CPRO MEAB	Etiquetas despegadas	Estudio específico	Estudio compra de viscosímetro	MDAB
+	1011	200010582	METR CPRO MEAB	Etiquetas despegadas	Actualizar estándar	Almacenamiento de adhesivo en cooler	MDAB
+	1011	200010582	METR CPRO MEAB	Etiquetas despegadas	Estudio específico	estudio devolución adhesivo a linea	MDAB
+	1011	200010582	METR CPRO MEAB	Etiquetas despegadas	Crear estándar	Crear estandar puesto inspeccion etiquet	MDAB
+	1011	200010618	MECE CPRO MERE	Vino con agua (Bajada a rejilla)	Actualizar procedimiento	Avinado equivalente	MEEJ	06.03.2009	06.03.2009	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200010676	MECE CPRO MERE	Etiquetas peladas	Estudio específico		MEEJ	28.12.2009	28.12.2009
+	1011	200010692	MECE CPRO MERE	Etiquetas peladas/Bajadas a rejillas en	Estudio específico		MEEJ	22.04.2009	22.04.2009
+	1103	200010817	MECE CPRO MERE	CAJAS SIN PESO	Implementar control	control cruzado	MEEJ	17.08.2009	17.08.2009	YOLANDA MEDINA SOTO
+	1011	200010822	METR MEAB	Tapas abolladas	Crear LUP	LUP bajada rej doble carton	MDAB
+	1011	200010822	METR MEAB	Tapas abolladas	Actualizar LUP	LUP agarre bajada a rejillas	MDAB
+	1011	200010822	METR MEAB	Tapas abolladas	Actualizar LUP	LUP subida a linea desde rejilla	MDAB
+	1011	200010822	METR MEAB	Tapas abolladas	Actualizar matriz de habilidades	Reunion externos	MDAB
+	1011	200010822	METR MEAB	Tapas abolladas	Crear LUP	LUP golpes fondo-tapa botellas	MDAB
+	1011	200010991	MECE CPRO MERE	Falta  especificacion de tabla maestra	Actualizar Matriz	Indicación de altura etiquetado	MEEJ	31.03.2009	31.03.2009	IGNACIO ANDRES SERRANO VEGA
+	1011	200011008	MECE CPRO MERE	Vino mezclado con Agua	Crear plan de mantención	Plan de Mantencion valvulas	MEEJ	26.12.2009	26.12.2009	JORGE MANUEL ROJAS ESPINOZA
+	1011	200011008	MECE CPRO MERE	Vino mezclado con Agua	Instalar alerta visual	Indicador visual de posición de valvula	MEEJ	03.04.2009	03.04.2009	EDDIE LUIS SOTO SOTO
+	1011	200011008	MECE CPRO MERE	Vino mezclado con Agua	Auditar procedimiento	Procedimiento evacuacion agua - avinado	MEEJ	26.12.2009	26.12.2009	TATIANA ALEJANDRA ASTORGA VERGARA
+	1011	200011008	MECE CPRO MERE	Vino mezclado con Agua	Validar flujo de proceso	Flujo de operacion cip - avinado	MEEJ	26.12.2009	26.12.2009
+	1102	200011051	MECE CPRO MERE	Bot. s/etiquetas;falta de altura en matr	Actualizar Matriz	Matriz de altura de etiquetado	MEEJ	21.04.2009	21.04.2009
+	1011	200011228	METR MEAB	Caja no corresponde	Cambio de lista de materiales		MEEJ	07.05.2009	07.05.2009
+	1011	200011238	MECE CPRO MERE	dupla estuche-caja master inadecuada	Modificar SAP	actualizar lista de materiales	MEEJ	22.04.2009	22.04.2009	RODRIGO ANTONIO QUINCHAVIL GONZALEZ
+	1011	200011252	MECE CPRO MERE	cajas no corresponden y desp. de tinta	Devolución al Proveedor		MEEJ	07.05.2009	07.05.2009
+	1011	200011252	MECE CPRO MERE	cajas no corresponden y desp. de tinta	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ	07.05.2009	07.05.2009
+	1102	200011279	MECE CPRO MERE	Capsula errónea en lista de Materiales	Cambio de lista de materiales	Modificar lista de materilaes	MEEJ	07.05.2009	07.05.2009
+	1011	200011302	MECE CPRO MERE	 sin reproceso por protocolo JAPON	Análisis de características de insumo		MEEJ	08.05.2009	08.05.2009
+	1011	200011302	MECE CPRO MERE	 sin reproceso por protocolo JAPON	Segregación Insumo		MEEJ	08.05.2009	08.05.2009
+	1011	200011302	MECE CPRO MERE	 sin reproceso por protocolo JAPON	Devolución al Proveedor		MEEJ	08.05.2009	08.05.2009
+	1011	200011302	MECE CPRO MERE	 sin reproceso por protocolo JAPON	Actualizar estándar		MEEJ	08.05.2009	08.05.2009
+	1011	200011302	MECE CPRO MERE	 sin reproceso por protocolo JAPON	Modificar autocontrol		MEEJ	08.05.2009	08.05.2009
+	1011	200011302	MECE CPRO MERE	 sin reproceso por protocolo JAPON	Auditar procedimiento		MEEJ	08.05.2009	08.05.2009
+	1011	200011305	MECE CPRO MERE	dupla estuche-caja master inadecuada	Modificar especificación de insumo		MEEJ	08.05.2009	08.05.2009	RODRIGO ANTONIO QUINCHAVIL GONZALEZ
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ PTBO	30.04.2009	30.04.2009
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Estudio específico		MDAB PTBO
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Desarrollar proveedor		MEEJ PTBO	30.04.2009	30.04.2009
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Modificar especificación de insumo		MEEJ PTBO	30.04.2009	30.04.2009
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Instalación de dispositivo de control	Lavadero	MDAB PTBO
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Actualizar procedimiento	test de roce	MDAB PTBO			VICTOR IVAN NITOR TORRES
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Reemplazo de dispositivo de control	nuevos aditamientos test de roce	MDAB PTBO
+		200011441	MECE MEAB PTBO	Etiquetas manchadas	Actualizar instructivo	test de cobb	MDAB PTBO
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Crear instructivo	IT Cip micro y llenadora	MEEJ	28.12.2009	28.12.2009	YOLANDA MEDINA SOTO
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Instalación de dispositivo de control	Cambio termocuplas	MEEJ	17.08.2009	17.08.2009
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Crear autocontrol	Autocontrol ejecución CIP	MEEJ	17.08.2009	17.08.2009	YOLANDA MEDINA SOTO
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Auditar autocontrol	auditar autocontrol	MEEJ	17.08.2009	17.08.2009	TATIANA ALEJANDRA ASTORGA VERGARA
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Auditar autocontrol	Verificar autocontrol-registro micro	MEEJ	17.08.2009	17.08.2009	TATIANA ALEJANDRA ASTORGA VERGARA
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Automatizar proceso	validar nuevas recetas	MEEJ	17.08.2009	17.08.2009	YOLANDA MEDINA SOTO
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Evaluación de técnica de máquina	Revisión sistema agua caliente	MEEJ	28.12.2009	28.12.2009
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Evaluación de técnica de máquina	Validar CIP tapadora	MEEJ	28.12.2009	28.12.2009	YOLANDA MEDINA SOTO
+	1103	200011442	MECE CPRO MERE	Contaminación microbiológica	Evaluación de técnica de máquina	Evaluación mantencion tapadora	MEEJ	28.12.2009	28.12.2009	YOLANDA MEDINA SOTO
+	1011	200011451	MECE CPRO MERE	CO2 bajo Tolerancia	Dictar LUP al operador		MEEJ	30.01.2010	30.01.2010
+	1011	200011451	MECE CPRO MERE	CO2 bajo Tolerancia	Validar flujo de proceso		MEEJ	30.01.2010	30.01.2010
+	1011	200011451	MECE CPRO MERE	CO2 bajo Tolerancia	Auditar procedimiento		MEEJ	30.01.2010	30.01.2010	TATIANA ALEJANDRA ASTORGA VERGARA
+	1011	200011482	MECE CPRO MERE	capsula pelada al roce	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ	07.05.2009	07.05.2009
+	1011	200011505	MECE CPRO MERE	Codigo de barra incorrecto en caja	Actualizar procedimiento	Se realiza el control de	MEEJ	20.07.2009	20.07.2009	LESLIE WRIGHTON BARAHONA
+	1103	200011516	MECE CPRO MERE	Codigo de barra inconrrecto	Actualizar procedimiento	Se realiza el control de	MEEJ	20.07.2009	20.07.2009	LESLIE WRIGHTON BARAHONA
+	1011	200011517	MECE CPRO MERE	Codigo de barra incorrecto	Actualizar procedimiento	Se realiza el control de	MEEJ	20.07.2009	20.07.2009	LESLIE WRIGHTON BARAHONA
+	1011	200011567	MECE CPRO MERE	Etq despegadas y botella en rejillas	Evaluación de técnica de máquina		MEEJ	20.05.2009	20.05.2009
+	1011	200011567	MECE CPRO MERE	Etq despegadas y botella en rejillas	Modificar máquina		MEEJ	23.01.2010	23.01.2010
+	1011	200011567	MECE CPRO MERE	Etq despegadas y botella en rejillas	Crear estándar		MEEJ	23.01.2010	23.01.2010
+	1011	200011567	MECE CPRO MERE	Etq despegadas y botella en rejillas	Instalación de bandejas receptora		MEEJ	23.01.2010	23.01.2010
+	1011	200011613	MECE CPRO MERE	Bajada a rejilla (cajas)	Dictar LUP al operador		MEEJ	23.01.2010	23.01.2010
+	1011	200011621	MECE CPRO MERE	bajo nivel de CO2	Dictar LUP al operador	LUP n° 4375	MEEJ	27.11.2009	27.11.2009	ERIC PATRICIO ARANCIBIA QUINTANA
+	1102	200011825	MECE CAEX MERE	Falta de texto etiqueta reverso	Implementar control		MEEJ	09.06.2009	09.06.2009	LESLIE WRIGHTON BARAHONA
+	1102	200011827	MECE CPRO MERE	Falta de texto etiqueta reverso	Implementar control		MEEJ	09.06.2009	09.06.2009	LESLIE WRIGHTON BARAHONA
+	1102	200011828	MECE CPRO MERE	Falta de texto etiqueta reverso	Implementar control		MEEJ	09.06.2009	09.06.2009	LESLIE WRIGHTON BARAHONA
+	1102	200011829	MECE CPRO MERE	Falta de texto etiqueta reverso	Implementar control		MEEJ	09.06.2009	09.06.2009	LESLIE WRIGHTON BARAHONA
+	1102	200011830	MECE CPRO MERE	Falta de texto etiqueta reverso	Implementar control		MEEJ	09.06.2009	09.06.2009	LESLIE WRIGHTON BARAHONA
+	1011	200011832	MECE CPRO MERE	Bajada a rejillas (cajas)	Cambio de lista de materiales		MEEJ	29.05.2009	29.05.2009	JUAN CARLOS ARANCIBIA CORVALAN
+	1103	200011843	MECE CPRO MERE	falla de texto en reverso  (falta)	Implementar control		MEEJ	09.06.2009	09.06.2009	LESLIE WRIGHTON BARAHONA
+	1011	200012067	MECE CPRO MERE	capsulas arrugadas	Modificar especificación de insumo	Especificación de finish	MEEJ	07.01.2010	07.01.2010	ERNESTO ARANCIBIA PACHECO
+	1011	200012067	MECE CPRO MERE	capsulas arrugadas	Crear procedimiento	Procedimiento de recepcion conforme bot	MEEJ	18.01.2010	18.01.2010	PAMELA MURILLO QUINTANILLA
+	1011	200012075	MECE CPRO MERE	BIBS con presencia de levaduras	Estudio específico	estudio cip Pirque	MEEJ	10.08.2009	30.01.2010
+	1011	200012075	MECE CPRO MERE	BIBS con presencia de levaduras	Evaluación de técnica de máquina	Válvula modulativa	MEEJ	10.08.2009	24.08.2009
+	1011	200012075	MECE CPRO MERE	BIBS con presencia de levaduras	Evaluación de técnica de máquina	Intercambiador B	MEEJ	10.08.2009	17.08.2009
+	1011	200012075	MECE CPRO MERE	BIBS con presencia de levaduras	Evaluación de técnica de máquina	Intercambiador A	MEEJ	10.08.2009	07.09.2009
+	1011	200012075	MECE CPRO MERE	BIBS con presencia de levaduras	Reemplazo de dispositivo de control	Conectar detencion proceso por baja T.	MEEJ	10.08.2009	30.09.2009
+	1011	200012075	MECE CPRO MERE	BIBS con presencia de levaduras	Crear autocontrol	Control procesos cip	MEEJ	10.08.2009	24.08.2009
+	1011	200012075	MECE CPRO MERE	BIBS con presencia de levaduras	Desarrollar proveedor	Levantamiento debilidades con proveedor	MEEJ	12.08.2009	24.08.2009
+	1103	200012112	MECE CPRO MERE	Código de barra no corresponde	Revisión de listado de inclusión	eliminar código de barras extra	MEEJ	15.12.2009	15.12.2009	CLAUDIO ANTONIO RODRIGUEZ NEIRA
+	1011	200012139	MECE CPRO MERE	Etiqueta Frente rota y Sec. Batch errone	Modificar especificación de insumo	Se cambiará a etiq. adhesiva	MEEJ	13.01.2010	13.01.2010	PABLO SALAZAR CAÑON
+	1011	200012183	METR MEAB	tapas abolladas y etiq. despegadas	Crear plan de mantención	Mant paletas aplicadora de adhesivo	MDAB			WILSON GARRIDO ACEVEDO
+	1011	200012183	METR MEAB	tapas abolladas y etiq. despegadas	Realizar prueba de conocimiento	Entrenamiento dirigido a operador setup	MDAB			WILSON GARRIDO ACEVEDO
+	1011	200012221	MECE CPRO MERE	striper chueco y etiq.fte despegado	Realizar prueba de conocimiento		MEEJ	15.01.2010	15.01.2010
+	1011	200012221	MECE CPRO MERE	striper chueco y etiq.fte despegado	Dictar curso al operador	Reentrenamiento	MEEJ	15.01.2010	15.01.2010
+	1011	200012221	MECE CPRO MERE	striper chueco y etiq.fte despegado	Realizar prueba de conocimiento		MEEJ	15.01.2010	15.01.2010
+	1011	200012221	MECE CPRO MERE	striper chueco y etiq.fte despegado	Dictar curso al operador	Reentrenamiento	MEEJ	15.01.2010	15.01.2010
+	1011	200012301	MECE CPRO MERE	Capsulas arrugadas	Crear plan de mantención	manillas ajustes manual	MEEJ	07.07.2009	07.07.2009	JORGE MANUEL ROJAS ESPINOZA
+	1011	200012301	MECE CPRO MERE	Capsulas arrugadas	Crear instructivo	Instructivo de ajuste sopladores	MEEJ	07.07.2009	07.07.2009	IGNACIO ANDRES SERRANO VEGA
+	1011	200012301	MECE CPRO MERE	Capsulas arrugadas	Crear LUP	Conocimientos basicos secado	MEEJ	07.07.2009	07.07.2009	CLAUDIO RETAMALES SEPULVEDA
+	1011	200012326	MECE CPRO MERE	cajas fuera de especificacion	Cambio de lista de materiales	actualizar caja en LM	MEEJ	30.01.2010	30.01.2010	RODRIGO ANTONIO QUINCHAVIL GONZALEZ
+	1011	200012342	MECE CPRO MERE	Vino con presencia de levaduras	Evaluación de técnica de máquina		MEEJ	13.07.2009	13.07.2009
+	1011	200012343	MECE CPRO MERE	Vino con presencia de levaduras	Evaluación de técnica de máquina		MEEJ	13.07.2009	13.07.2009
+	1011	200012683	MECE CPRO MERE	Tapa con Torque sobre especificaciones	Estudio específico	Definir Tipo de Tapa	MEEJ	07.01.2010	07.01.2010	ERNESTO ARANCIBIA PACHECO
+	1011	200012683	MECE CPRO MERE	Tapa con Torque sobre especificaciones	Estudio específico	Cambio de Tapa o de boca botella	MEEJ	07.01.2010	07.01.2010	ERNESTO ARANCIBIA PACHECO
+	1011	200012683	MECE CPRO MERE	Tapa con Torque sobre especificaciones	Verificación de autocontrol realizado	En Futuras producciones	MEEJ	30.01.2010	30.01.2010	FELIPE ROMAN POBLETE
+	1103	200012691	MECE CPRO MERE	Etiquetas despegadas por parada de bomba	Evaluación de técnica de máquina	Reemplazo de bomba	MEEJ	17.08.2009	17.08.2009
+	1103	200012691	MECE CPRO MERE	Etiquetas despegadas por parada de bomba	Instalación de dispositivo de control	Cámara temperatura etiquetas	MEEJ	17.08.2009	17.08.2009
+	1011	200012789	MECE CPRO MERE	Sellos No respeta postura en forma U	Modificar máquina	Rotular Topes	MEEJ	04.08.2009	20.08.2009	MARIO ALBERTO ROJO MATURANA
+	1102	200012847	MECE CPRO MERE	Vino con oxigeno alto	Crear autocontrol	autocontrol partida linea C6	MEEJ	21.11.2009	21.11.2009
+	1102	200012847	MECE CPRO MERE	Vino con oxigeno alto	Dictar LUP al operador	Gustavo Bulnes dicta LUP	MEEJ	21.11.2009	21.11.2009
+	1102	200012847	MECE CPRO MERE	Vino con oxigeno alto	Crear instructivo	IT partida linea	MEEJ	21.11.2009	21.11.2009
+	1011	200012858	MECE CPRO MERE	pallet con mayor y menos cant cajas	Modificar máquina	Habilitar formato	MEEJ	18.08.2009	18.08.2009	JORGE MANUEL ROJAS ESPINOZA
+	1011	200012907	MECE CPRO MERE	roscas con liner suelto y dif de tonalid	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ	21.11.2009	21.11.2009	FELIPE ROMAN POBLETE
+	1011	200012907	MECE CPRO MERE	roscas con liner suelto y dif de tonalid	Actualizar procedimiento	Rotulación manual de saldos	MEEJ	30.01.2010	30.01.2010	DANIEL VALENZUELA AREVALO
+	1011	200012907	MECE CPRO MERE	roscas con liner suelto y dif de tonalid	Análisis de características de insumo	Realizar mediciones de boca	MEEJ	30.01.2010	30.01.2010	ERNESTO ARANCIBIA PACHECO
+	1011	200012925	MECE CPRO MERE	botellas sin etiquetas	Verificación de autocontrol realizado		MEEJ	26.11.2009	26.11.2009	ALEXIS ANTONIO NARVAI DIAZ
+	1011	200012925	MECE CPRO MERE	botellas sin etiquetas	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ	26.11.2009	26.11.2009	FELIPE ROMAN POBLETE
+	1011	200013034	MECE CPRO MERE	numero de orden en caja no corresponde	Actualizar procedimiento	Control Cruzado	MEEJ	20.08.2009	20.08.2009	MONICA PEÑA SANDOVAL
+	1011	200013437	MECE CPRO MERE	caja alternativa por merma de linea	Evaluación de técnica de máquina	Plan de Mantención	MEEJ	23.09.2009	23.09.2009	JORGE MANUEL ROJAS ESPINOZA
+	1102	200013483	MECE CPRO MERE	Contaminanción Microbiologica	Dictar LUP al operador	Capacitar en el instructivo de siembra	MEEJ	19.10.2009	30.10.2009
+	1102	200013483	MECE CPRO MERE	Contaminanción Microbiologica	Crear estándar	de limpieza e inspección para tapadoras	MEEJ	19.10.2009	19.11.2009
+	1102	200013483	MECE CPRO MERE	Contaminanción Microbiologica	Modificar máquina	Reemplazar manometros y pipping	MEEJ	09.12.2009	09.12.2009	RICARDO E. ALDANA JARA
+	1102	200013483	MECE CPRO MERE	Contaminanción Microbiologica	Validar flujo de proceso	Validar CIP	MEEJ	09.12.2009	09.12.2009
+	1102	200013483	MECE CPRO MERE	Contaminanción Microbiologica	Implementar control	de procesos de calidad	MEEJ	19.11.2009	21.11.2009	FELIPE ROMAN POBLETE
+	1103	200013797	MECE CPRO MERE	CO2 bajo tolerancia en soplado	Crear LUP		MEEJ	21.10.2009	21.10.2009
+	1103	200013802	MECE CPRO MERE	CO2 bajo tolerancia en soplado	Crear LUP		MEEJ	21.10.2009	21.10.2009	YOLANDA MEDINA SOTO
+	1011	200013820	MECE CPRO MERE	Altura de etiquetacion fuera de standar	Actualizar Matriz	Actualiza altura de etiquetado	MEEJ	21.10.2009	21.10.2009
+	1011	200013907	METR MEAB	bajo nivel de co2	Evaluación de técnica de máquina	Condiciones de envasado	MDAB
+	1011	200014057	METR MEAB	co2 bajo tolerancia	Evaluación de técnica de máquina		MDAB
+	1011	200014062	MECE CPRO MERE	Bajada a rejilla	Evaluación de técnica de máquina		MEEJ	09.12.2009	09.12.2009	JORGE MANUEL ROJAS ESPINOZA
+	1011	200014062	MECE CPRO MERE	Bajada a rejilla	Segregación Insumo		MEEJ	09.12.2009	09.12.2009	DANIEL VALENZUELA AREVALO
+	1011	200014062	MECE CPRO MERE	Bajada a rejilla	Muestreo del Insumo		MEEJ	09.12.2009	09.12.2009	DANIEL VALENZUELA AREVALO
+	1011	200014071	MECE CPRO MERE	bajada de linea (falta de estuche)	Crear procedimiento	procedimiento recepcion Produccion	MEEJ	30.10.2009	30.10.2009	MARIO MESIAS PALMA
+	1011	200014207	MECE CPRO MERE	falta marca en estuche	Actualizar estándar	actualiza matriz	MEEJ	11.11.2009	11.11.2009	LESLIE WRIGHTON BARAHONA
+	1103	200014242	MECE CPRO MERE	Botellas  sin etiquetas (stripper)	Modificar máquina	Cambio de material de planchado	MEEJ	28.11.2009	28.11.2009
+	1011	200014287	METR CPRO MEAB	Formato paletizado no corresponde	Modificar máquina	Modificar guias de máquina	MDAB		01.01.2010	JORGE MANUEL ROJAS ESPINOZA
+	1102	200014331	MECE CPRO MERE	Falta de golletera	Cambio de lista de materiales		MEEJ	17.12.2009	17.12.2009	CRISTIAN ANDRES TORO AVILES
+	1102	200014432	MECE CPRO MERE	Bod Origen no informa causa.	Informar al enólogo	Se informa a Marisol Alcayaga	MEEJ	25.11.2009	25.11.2009
+	1011	200014475	METR MEAB	formato de paletizado no corre	Modificar máquina	Modificar guias de máquina	MDAB		27.12.2009	JORGE MANUEL ROJAS ESPINOZA
+	1103	200014483	METR CPRO MEAB	Botellas con adhesivo en sellado de caja	Instalar alerta visual	marcas visuales de ubicación  de sensore	MDAB			YOLANDA MEDINA SOTO
+	1103	200014483	METR CPRO MEAB	Botellas con adhesivo en sellado de caja	Instalar alerta visual	marcas visuales de altura de boquilla	MDAB			YOLANDA MEDINA SOTO
+	1103	200014483	METR CPRO MEAB	Botellas con adhesivo en sellado de caja	Dictar LUP al operador	LUP con ajustes para sellado de cajas	MDAB			YOLANDA MEDINA SOTO
+	1011	200014830	MECE CPRO MERE	Estuche con pieza de metal	Estudio específico	Ver aviso QM14861	MEEJ	11.03.2010	11.03.2010
+	1011	200014845	MECE CPRO MERE	Estuche con pieza de metal	Estudio específico	Ver aviso QM14861	MEEJ	11.03.2010	11.03.2010	MONICA PEÑA SANDOVAL
+	1011	200014846	MECE CPRO MERE	Estuche con pieza de metal	Estudio específico	Ver aviso QM14861	MEEJ	11.03.2010	11.03.2010	MONICA PEÑA SANDOVAL
+	1011	200014861	MECE CPRO MERE	Estuche con pieza de metal	Modificar máquina		MEEJ	11.03.2010	11.03.2010	JORGE MANUEL ROJAS ESPINOZA
+	1011	200014861	MECE CPRO MERE	Estuche con pieza de metal	Crear estándar		MEEJ	11.03.2010	11.03.2010	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200014861	MECE CPRO MERE	Estuche con pieza de metal	Crear LUP		MEEJ	11.03.2010	11.03.2010	MAURICIO VALLE GONZALEZ
+	1103	200015454	METR MEAB	Contaminación Microbiologica	Actualizar instructivo	incluir tapadora en cip 2	MEEJ	03.05.2010	03.05.2010	YOLANDA MEDINA SOTO
+	1103	200015454	METR MEAB	Contaminación Microbiologica	Crear LUP	instrucción para lavar estrellas de vací	MDAB			YOLANDA MEDINA SOTO
+	1103	200015454	METR MEAB	Contaminación Microbiologica	Automatizar proceso	cambiar receta	MEEJ	03.05.2010	03.05.2010	YOLANDA MEDINA SOTO
+	1103	200015454	METR MEAB	Contaminación Microbiologica	Estudio específico	Seguimiento efectividad CIP	MEEJ	03.05.2010	03.05.2010	YOLANDA MEDINA SOTO
+	1102	200015694	METR MEAB	Vino con 18 días en bodega	Degustación de enólogo		MEEJ	23.02.2010	23.02.2010	FRANCESCA ANDREA PERAZZO ARAYA
+	1102	200015694	METR MEAB	Vino con 18 días en bodega	Muestreo del Insumo	analisis contramuestra	MEEJ	23.02.2010	23.02.2010
+	1011	200016142	MECE CPRO MERE	Cajas sin enzunchar	Evaluación de técnica de máquina		MEEJ	01.04.2010	01.04.2010	JORGE MANUEL ROJAS ESPINOZA
+	1011	200016158	MECE CPRO MERE	Vino con oxígeno alto	Informar al enólogo	Se informa al  enologo.	MEEJ	31.03.2010	31.03.2010
+	1011	200016170	MECE CPRO MERE	Vino con oxigeno fuera de parametros	Informar al enólogo	Se informa al  enologo.	MEEJ	31.03.2010	31.03.2010
+	1011	200016181	MECE CPRO MERE	Vino con oxigeno fuera de parametros	Informar al enólogo	Se informa al  enologo.	MEEJ	31.03.2010	31.03.2010
+	1103	200016233	METR MEAB	Botellas sin Vacio (Bomba se detiene)	Instalación de dispositivo de control	Instalar presostato	MDAB	31.03.2010	22.05.2010
+	1103	200016233	METR MEAB	Botellas sin Vacio (Bomba se detiene)	Crear estándar	Crear cuadro de válvulas	MDAB	31.03.2010	14.05.2010	IVAN OSVALDO CASTILLO URREA
+	1103	200016233	METR MEAB	Botellas sin Vacio (Bomba se detiene)	Crear estándar	Pokayoke estrellas de vacío	MDAB	31.03.2010	14.05.2010
+	1103	200016233	METR MEAB	Botellas sin Vacio (Bomba se detiene)		Protocolo falla de bomba	MDAB	31.03.2010	22.05.2010	EUGENIO JAVIER CASTILLO VERGARA
+	1103	200016233	METR MEAB	Botellas sin Vacio (Bomba se detiene)	Evaluación de técnica de máquina	Evalución sistema vacío tapadora	MEEJ	31.03.2010	11.04.2010
+	1011	200016261	METR MEAB	botellas sin vacio desgaste campanas	Crear LUP	ok	MEEJ	23.09.2010	23.09.2010	LUIS PEZO ANRIQUEZ
+	1011	200016261	METR MEAB	botellas sin vacio desgaste campanas	Auditar estándar	ok	MEEJ	23.09.2010	23.09.2010	LUIS PEZO ANRIQUEZ
+	1011	200016832	METR MEAB	Rinser no funciona	Modificar máquina	colocar peinetas de aire al sensor	MEEJ	18.05.2010	18.05.2010	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200016832	METR MEAB	Rinser no funciona	Modificar máquina	Replicar mejora a todas las lineas	MEEJ	21.09.2010	21.09.2010	ERIC PATRICIO ARANCIBIA QUINTANA
+	1103	200017193	MECE CPRO MERE MIMP	Contaminación microbiologica	Crear LUP		MEEJ	09.07.2010	09.07.2010	YOLANDA MEDINA SOTO
+	1011	200017478	MECE CPRO MERE	Oxígeno alto	Crear plan de mantención	coordinación de soldadura	MEEJ	15.06.2010	15.06.2010	JORGE MANUEL ROJAS ESPINOZA
+	1011	200017633	MECE CPRO MERE	Vino con oxígeno alto	Implementar control	Cada 1mes	MEEJ	24.09.2010	24.09.2010	LUIS PEZO ANRIQUEZ
+	1011	200017633	MECE CPRO MERE	Vino con oxígeno alto	Evaluación de técnica de máquina	Se realiza nivelación de trenes	MEEJ	24.09.2010	24.09.2010	LUIS PEZO ANRIQUEZ
+	1011	200017633	MECE CPRO MERE	Vino con oxígeno alto	Crear estándar	Apriete de trenes de fitración	MEEJ	24.09.2010	24.09.2010	LUIS PEZO ANRIQUEZ
+	1011	200017633	MECE CPRO MERE	Vino con oxígeno alto	Crear plan de mantención	Revisión empaquetadura mensual	MEEJ	24.09.2010	13.12.2010	LUIS PEZO ANRIQUEZ
+	1011	200017821	METR MEAB	restos de vidrios, magazine mal ajustado	Dictar LUP al operador		MEEJ	21.09.2010	21.09.2010	OSCAR MAURICIO BERRIOS LOPEZ
+	1011	200017821	METR MEAB	restos de vidrios, magazine mal ajustado	Crear plan de mantención		MELI	21.09.2010	21.09.2010	OSCAR MAURICIO BERRIOS LOPEZ
+	1011	200017821	METR MEAB	restos de vidrios, magazine mal ajustado	Actualizar procedimiento		MEEJ	21.09.2010	21.09.2010
+	1011	200017821	METR MEAB	restos de vidrios, magazine mal ajustado	Implementar control	Estandar preventivo en maquina	MEEJ	21.09.2010	21.09.2010	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200017821	METR MEAB	restos de vidrios, magazine mal ajustado	Crear estándar	Carta de Cambio Roscado	MDAB	24.09.2010	01.10.2010	LUIS PEZO ANRIQUEZ
+	1011	200017827	METR MEAB	Tapas abolladas en falda	Crear LUP	Regulación de Estrella	MEEJ	30.09.2010	30.09.2010	MARCO CARDENAS ULLOA
+	1011	200017836	METR MEAB	Botellas con posible presencia de vidrio	Crear estándar	Estandar de regulación de altura	MDAB
+	1011	200018160	METR CPRO MEAB	Corcho no corresponde error operacional	Crear LUP	ok	MEEJ	23.09.2010	23.09.2010	DANIEL H. PALMA CLARO
+	1011	200018160	METR CPRO MEAB	Corcho no corresponde error operacional	Amonestación	Al Sr Ricardo Palma	MDAB	24.09.2010
+	1011	200018353	METR MEAB	Contaminación microbiológica	Actualizar instructivo	Crear procedimiento	MEEJ	21.09.2010	24.11.2010	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200018353	METR MEAB	Contaminación microbiológica	Crear LUP	Correcto Soplado	MEEJ	21.09.2010	24.11.2010	DANIEL H. PALMA CLARO
+	1011	200018353	METR MEAB	Contaminación microbiológica	Modificar máquina	Incorporar sistema de soplado en L7	MDAB			CRISTIAN LEONARDO ARENAS MALDONADO
+	1011	200018488	MECE CPRO MERE	cajas manchadas	Dictar charla al operador	dicatr charla	MEEJ	30.11.2010	30.11.2010	DANIEL ESTEBAN CORTES VILLALOBOS
+	1102	200019113	MECE CPRO MERE	Vino con posible particulas	Dictar curso al operador	BPM para supervisores Producción	MEEJ	15.09.2010	22.09.2010	EDUARDO ALBARRACIN DEPIX
+	1011	200019337	METR MEAB	Falta de caja Gift	Dictar curso al operador	Creación de Avisos ZC	MDAB
+	1011	200019337	METR MEAB	Falta de caja Gift	Actualizar estándar	Merma de Proceso PPEE	MDAB			DANIEL ESTEBAN CORTES VILLALOBOS
+	1011	200019566	MECE CPRO MERE	Caja cabernet Sauv. /casillero Merlot	Dictar charla al operador		MEEJ	22.09.2010	22.09.2010
+	1011	200019609	MECE MEAB PTBO	Aviso duplicado	Dictar charla al operador	Como cargar  y que inspeccionar	MDAB PTBO			LUIS PEZO ANRIQUEZ
+	1103	200019618	MECE MERE PTBO	anular	Entregar muestras al proveedor	se debe crear zc	MEEJ PTBO	09.09.2010	09.09.2010	MARCELO ANDRES PEREZ GONZALEZ
+	1011	200019639	MECE CPRO MERE	cajas manchadas  con vino.	Dictar charla al operador		MEEJ	14.09.2010	30.11.2010	DANIEL ESTEBAN CORTES VILLALOBOS
+	1011	200019641	METR MEAB	Etiqueta REV Mezclada + Caida de pallet	Auditar procedimiento	Se debe auditar la ejecución	MDAB	09.09.2010		ALEXIS ANTONIO NARVAI DIAZ
+		200019642	MECE MEAB PTBO	Aviso duplicado	Auditar procedimiento	verificar competencias	MDAB PTBO	09.09.2010		DANIEL ESTEBAN CORTES VILLALOBOS
+	1011	200019643	METR MEAB	Volcado de Pallet + Caja alternativa	Auditar procedimiento	verificar competencias	MDAB	09.09.2010		DANIEL ESTEBAN CORTES VILLALOBOS
+	1011	200019644	MECE CPRO MERE	Vino no corresponde	Crear LUP	identificar cuba con vino rezagado	MEEJ	07.10.2010	14.10.2010	LUIS PEZO ANRIQUEZ
+	1011	200019644	MECE CPRO MERE	Vino no corresponde	Crear instructivo	Se crea mejora N°798	MEEJ	07.10.2010	14.10.2010	LUIS PEZO ANRIQUEZ
+	1102	200019648	MECE CPRO MERE	Cajas en mal estado	Crear estándar	Crear estandar de almacenamiento	MEEJ	27.10.2010	27.10.2010	VICTOR SAN MARTIN FLORES
+	1102	200019697	MECE CPRO MERE	Cajas en mal estado y /o manchadas	Dictar charla al operador	sobre cuidados en el transporte	MEEJ	14.09.2010	03.12.2010	VICTOR SAN MARTIN FLORES
+	1011	200019708	MECE CPRO MERE	Vino erroneo.	Crear instructivo		MEEJ	14.09.2010	14.09.2010
+	1011	200019947	MECE CPRO MERE	falta de presion de roscadora	Actualizar estándar	 a 9 KgF/cm2	MEEJ	07.12.2010	07.12.2010	VICTOR IVAN NITOR TORRES
+	1011	200020021	MECE CPRO MERE	error en marca basica	Crear LUP	Agregar Viña en marca Basica	MEEJ	11.10.2010	15.10.2010	CLAUDIA PALAVECINOS SEPULVEDA
+	1011	200020035	MECE CPRO MERE	dia juliano no corresponde (L4727410)	Dictar charla al operador	 a operadores	MEEJ	04.10.2010	04.10.2010
+	1011	200020036	MECE CPRO MERE	dia juliano no corresponde (L4727410)	Dictar charla al operador	A operadores	MEEJ	04.10.2010	04.10.2010
+	1011	200020236	MECE CPRO MERE	Vino c/ cristales de Tártratos + CO2 Baj	Crear procedimiento	Eliminación de Presión de Nitrogeno de c	MEEJ	04.01.2011	04.01.2011	RODRIGO ESTEBAN LOPEZ CERVERA
+	1011	200020294	MECE CPRO MERE	vino con oxigeno alto.	Crear LUP		MEEJ	05.11.2010	05.11.2010
+	1011	200020308	MECE CPRO MERE	termino de capsula	Crear estándar	Merma de línea capsulas	MEEJ	20.10.2010	30.10.2010	ALEX JOHN EYZAGUIRRE LARA
+	1011	200020548	MECE CPRO MERE	Botellas sin vacío	Actualizar instructivo	Tapado	MEEJ	05.01.2011	05.01.2011
+	1011	200020585	MECE CPRO MERE	Secuencia del batch no corresponde	Crear LUP	Creación de LUP	MEEJ	05.01.2011	05.01.2011
+	1011	200020648	MECE CPRO MERE	Tapas no corresponde	Amonestación		MEEJ	05.01.2011	05.01.2011
+	1011	200020878	MECE CPRO MERE	Sin Marca Básica	Crear LUP	Operador de trabajo	MEEJ	05.01.2011	05.01.2011	LUIS MATURANA SANDOVAL
+	1011	200020886	MECE CPRO MERE	Exceso de pegamento en la caja	Amonestación		MEEJ	01.12.2010	01.12.2010
+	1011	200021201	MECE CPRO MERE	Etiquetas deterioradas	Actualizar procedimiento		MEEJ	10.01.2011	10.01.2011
+	1011	200021247	MECE CPRO MERE	Falta de Sticker	Amonestación		MEEJ	27.12.2010	27.12.2010
+	1011	200021444	METR CPRO MEAB	En espera de Degustación Enologica	Estudio específico	Espera de devolucion. por parte de Packa	MDAB
+	1011	200021635	METR MEAB	Etiquetas rasgadas por Tabique	Verificación de autocontrol realizado	medidas internas fuera de especificación	MDAB			DANIEL VALENZUELA AREVALO
+	1011	200021635	METR MEAB	Etiquetas rasgadas por Tabique	Actualizar procedimiento	actualizar metodologia de medición	MDAB			PAMELA MURILLO QUINTANILLA
+	1011	200021722	MECE CPRO MERE	Cosecha Etiqueta reverso erronea	Trazabilidad		MEEJ	09.04.2011	09.04.2011
+	1011	200021737	METR MEAB	Botella defectuosa  Montes y Valles	Crear RPI  (Reclamo Proveedor Insumo)	Botella 11005053	MEEJ	24.03.2011	24.03.2011	MAKARENA JAZMIN VARAS GUZMAN
+	1011	200021739	METR MEAB	Botella defectuosa  Montes y Valles	Crear RPI  (Reclamo Proveedor Insumo)	Botella 11005053	MEEJ	24.03.2011	24.03.2011	MAKARENA JAZMIN VARAS GUZMAN
+	1011	200021756	METR MEAB	levaduras fermentativas	Evaluación de técnica de máquina	modificación de rampa aceleración	MEEJ	19.01.2011	19.01.2011	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200021756	METR MEAB	levaduras fermentativas	Incluir en especificación del producto	valores de bomba de alimentación	MDAB			MARCO ANTONIO PONZANO BRAVO
+	1011	200021758	MECE CPRO MERE	Patente no corresponde	Implementar control	se implementa control	MEEJ	07.01.2011	07.01.2011	PAULO SALAZAR FREYHOFER
+	1011	200021837	MECE CPRO MERE	Etiquetas rasgadas.	Amonestación		MEEJ	12.03.2011	12.03.2011
+	1011	200021839	MECE CPRO MERE	Etiquetas rasgadas.	Amonestación		MEEJ	12.03.2011	12.03.2011
+	1011	200021894	MECE CPRO MERE	Patente erronea en caja	Dictar charla al operador	reclacar instruccion de paletizado	MEEJ	24.03.2011	24.03.2011	PAULO SALAZAR FREYHOFER
+	1103	200021907	MECE CAEX MERE	tabiques mezclados	Crear RPI  (Reclamo Proveedor Insumo)		MEEJ	17.02.2011	17.02.2011
+	1011	200021925	MECE CPRO MERE	Fecha Packing Date Erroneo	Amonestación		MEEJ	12.03.2011	12.03.2011
+	1011	200021943	MECE CPRO MERE	Caja no corresponde	Aprobación con Observación	Se puede ir con sticker	MEEJ	25.01.2011	25.01.2011	PAULO SALAZAR FREYHOFER
+	1011	200022005	MECE CPRO MERE	Fecha de etiquetación no corresponde	Crear LUP	Operador de Linea	MEEJ	31.03.2011	31.03.2011
+	1011	200022013	MECE CPRO MERE	Etiqueta Erronea	Amonestación	Se ejecuta amonestacón  a Operador	MEEJ	11.04.2011	11.04.2011	DANIEL VALENZUELA AREVALO
+	1011	200022013	MECE CPRO MERE	Etiqueta Erronea	Crear LUP	5042, adjunta en aviso	MEEJ	11.04.2011	11.04.2011	DANIEL VALENZUELA AREVALO
+	1011	200022053	METR MEAB	Oxigeno fuera de parametro	Crear estándar		MEEJ	30.03.2011	30.03.2011
+	1011	200022058	METR CPRO MEAB	Etiqueta con falta de reserva para lote	Modificar arte de insumo	Se   creara reserva para loteado de etiq	MDAB			GUILLERMO ANDRES BARRERA RIVERA
+	1103	200022075	MECE CAEX MERE	Error en Lote de Etiqueta.	Crear RPI  (Reclamo Proveedor Insumo)	Aviso ZC asociado 200022055 (de servicio	MEEJ	18.02.2011	18.02.2011	MARCELO ANDRES PEREZ GONZALEZ
+	1011	200022126	MECE CPRO MERE	Dia juliano erroneo	Amonestación		MEEJ	23.02.2011	23.02.2011
+	1103	200022141	MEAB MEAB MIMP	Mezcla de insumo corcho	Crear LUP	para 10.03.2011	MDAB	17.02.2011		MANUEL JORQUERA GAETE
+	1103	200022141	MEAB MEAB MIMP	Mezcla de insumo corcho	Actualizar procedimiento	Revisar manejo de barridos	MDAB	17.02.2011		MANUEL JORQUERA GAETE
+	1011	200022142	MECE CPRO MERE	Caja no corresponde	Modificar SAP	se solicita modificar fert	MEEJ	15.02.2011	15.02.2011	PAULO SALAZAR FREYHOFER
+	1103	200022143	MEAB MEAB MIMP	CO2 bajo tolerancia	Actualizar instructivo	Incluir tiempo en entrega de vino	MDAB			LILIAN ARLETTE DUHALDE CARRASCO
+	1011	200022165	METR MEAB	Vino con oxígeno alto	Crear estándar	programar lote más grande	MEEJ	30.03.2011	30.03.2011
+	1102	200022204	METR MEAB MIMP	Posible particulas	Instalación de dispositivo de control	sensor de acumulación	MDAB			RICARDO E. ALDANA JARA
+	1102	200022204	METR MEAB MIMP	Posible particulas	Modificar máquina	Cubiertas de protección	MDAB			RUTH KARINA PINEDA ALMONACID
+	1102	200022204	METR MEAB MIMP	Posible particulas	Crear LUP	retiro de botellas por quiebre	MEEJ	25.02.2011	25.02.2011
+	1102	200022204	METR MEAB MIMP	Posible particulas	Implementar control	Check	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022205	METR MEAB	Posible particulas	Instalación de dispositivo de control	sensor de acumulación	MDAB			RICARDO E. ALDANA JARA
+	1102	200022205	METR MEAB	Posible particulas	Modificar máquina	Cubiertas de protección	MDAB			RUTH KARINA PINEDA ALMONACID
+	1102	200022205	METR MEAB	Posible particulas	Crear LUP	retiro de botellas por quiebre	MEEJ	25.02.2011	25.02.2011
+	1102	200022205	METR MEAB	Posible particulas	Implementar control	Check	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022205	METR MEAB	Posible particulas	Crear procedimiento	Gestión de autocontrol	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022205	METR MEAB	Posible particulas	Evaluación de técnica de máquina	Apertura maquina	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022208	METR MEAB	Posible particulas	Instalación de dispositivo de control	sensor de acumulación	MDAB			RICARDO E. ALDANA JARA
+	1102	200022208	METR MEAB	Posible particulas	Modificar máquina	Cubiertas de protección	MDAB			RUTH KARINA PINEDA ALMONACID
+	1102	200022208	METR MEAB	Posible particulas	Crear LUP	retiro de botellas por quiebre	MEEJ	25.02.2011	25.02.2011
+	1102	200022208	METR MEAB	Posible particulas	Implementar control	Check	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022209	METR MEAB	Posible particulas	Instalación de dispositivo de control	sensor de acumulación	MDAB			RICARDO E. ALDANA JARA
+	1102	200022209	METR MEAB	Posible particulas	Modificar máquina	Cubiertas de protección	MDAB			RUTH KARINA PINEDA ALMONACID
+	1102	200022209	METR MEAB	Posible particulas	Crear LUP	retiro de botellas por quiebre	MEEJ	25.02.2011	25.02.2011
+	1102	200022209	METR MEAB	Posible particulas	Implementar control	Check	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1011	200022214	MECE CPRO MERE	Etiqueta no corresponde	Amonestación	Verbal	MEEJ	10.03.2011	10.03.2011
+	1102	200022234	MECE CPRO MERE	Transformar a halb	Agregar restricción		MEEJ	10.03.2011	10.03.2011
+	1102	200022234	MECE CPRO MERE	Transformar a halb	Implementar control		MEEJ	10.03.2011	10.03.2011
+	1011	200022240	METR MEAB	Vino con oxígeno alto	Evaluación de técnica de máquina	Verificación de funcionamiento	MEEJ	01.03.2011	30.03.2011	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200022240	METR MEAB	Vino con oxígeno alto	Incluir en especificación del producto	Verificación de preparación del vino	MDAB	01.03.2011		ALEJANDRO CONTRERAS MANZANO
+	1011	200022255	METR MEAB	Botella con boquillas	Evaluación de técnica de máquina	Cambio de leva	MEEJ	08.04.2011	08.04.2011	JOSE ANICETO PINO GIERING
+	1011	200022255	METR MEAB	Botella con boquillas	Crear estándar	Se crea estándar	MEEJ	16.03.2011	16.03.2011	MARCOS A RUBIO CASTRO
+	1011	200022255	METR MEAB	Botella con boquillas	Crear LUP	Creación Lup	MEEJ	17.03.2011	18.03.2011	MARCOS A RUBIO CASTRO
+	1011	200022255	METR MEAB	Botella con boquillas	Dictar curso al operador	Inspección y regulación de levas	MEEJ	16.03.2011	25.03.2011	MARCOS A RUBIO CASTRO
+	1011	200022255	METR MEAB	Botella con boquillas	Evaluación de técnica de máquina	Definición de vida útil de leva	MELI	15.03.2011	01.07.2011	JOSE ANICETO PINO GIERING
+	1011	200022255	METR MEAB	Botella con boquillas	Modificar máquina	Mejora en protección de inyectores	MELI	04.04.2011	16.04.2011	MARCOS A RUBIO CASTRO
+	1011	200022379	MECE MEAB PTBO	no lleva patente	Verificación de autocontrol realizado	Verificar la eficiencia del autocontrol	MDAB PTBO			DANIEL VALENZUELA AREVALO
+	1011	200022405	METR MEAB	Etiquetas mezcladas	Crear LUP	contramuestra de clientes criticos	MDAB			ALEXIS ORIAS ORIAS
+	1011	200022405	METR MEAB	Etiquetas mezcladas	Actualizar procedimiento	incorporar en IT	MDAB			RAUL QUEVEDO PALOMINOS
+	1011	200022408	MECE CPRO MERE	Lote de botella y caja con linea erronea	Amonestación		MEEJ	12.03.2011	12.03.2011
+	1103	200022413	METR MEAB	Centradores de estrellas deteriorados	Modificar máquina	Rectificar centradores de estrellas de v	MEEJ	05.03.2011	07.03.2011	JORGE MANUEL ROJAS ESPINOZA
+	1103	200022413	METR MEAB	Centradores de estrellas deteriorados	Modificar máquina	Cambiar estrellas de vacío	MEEJ	05.03.2011	07.03.2011	JORGE MANUEL ROJAS ESPINOZA
+	1103	200022413	METR MEAB	Centradores de estrellas deteriorados	Análisis de características de insumo	Solicitar patrones a proveedor	MDAB	07.03.2011	22.03.2011	LILIAN ARLETTE DUHALDE CARRASCO
+	1103	200022413	METR MEAB	Centradores de estrellas deteriorados	Automatizar proceso	Actualizar formatos en programa máquina	MDAB	07.03.2011	22.03.2011	JORGE MANUEL ROJAS ESPINOZA
+	1103	200022413	METR MEAB	Centradores de estrellas deteriorados	Evaluación de técnica de máquina	Revisar formatos utilizados	MDAB	07.03.2011	22.03.2011	JORGE MANUEL ROJAS ESPINOZA
+	1103	200022413	METR MEAB	Centradores de estrellas deteriorados	Crear estándar		MDAB			JORGE MANUEL ROJAS ESPINOZA
+	1011	200022440	METR MEAB	Tapas Abolladas	Realizar prueba de conocimiento		MDAB
+	1011	200022457	METR MEAB	Posibles part de vidrio / sin vacio	Crear estándar	crear estandar	MEEJ	24.03.2011	24.03.2011	AMERICO NORESE GUAJARDO
+	1011	200022457	METR MEAB	Posibles part de vidrio / sin vacio	Implementar control	verificar cambio exitoso	MEEJ	24.03.2011	24.03.2011	AMERICO NORESE GUAJARDO
+	1011	200022457	METR MEAB	Posibles part de vidrio / sin vacio	Verificación de autocontrol realizado	diseño de autocontrol	MEEJ	24.03.2011	24.03.2011	AMERICO NORESE GUAJARDO
+	1011	200022457	METR MEAB	Posibles part de vidrio / sin vacio	Evaluación de técnica de máquina	Prueba simulación real	MEEJ	17.03.2011	17.03.2011	LUIS PEZO ANRIQUEZ
+	1011	200022457	METR MEAB	Posibles part de vidrio / sin vacio	Implementar control	Control de vacio en 1 mes mas	MDAB			VICTOR MANUEL RUBIO AYALA
+	1011	200022464	MEAB MEAB	Botella se raya con facilidad	Instalación de dispositivo de control	crear logica de transporte	MDAB			MARCO ANTONIO PONZANO BRAVO
+	1011	200022464	MEAB MEAB	Botella se raya con facilidad	Entregar muestras al proveedor	analizar las botellas	MDAB			MAKARENA JAZMIN VARAS GUZMAN
+	1011	200022471	MEAB MEAB	Aletas inferiores despegadas total o par	Crear plan de mantención	realizar mantencion	MDAB
+	1011	200022471	MEAB MEAB	Aletas inferiores despegadas total o par	Actualizar instructivo	actualizar IT	MEEJ	30.03.2011	30.03.2011	ERIC PATRICIO ARANCIBIA QUINTANA
+	1011	200022473	MEAB MEAB	Sticker despegado	Segregación Insumo	segregar sticker en bodega	MDAB			ERNESTO ARANCIBIA PACHECO
+	1011	200022473	MEAB MEAB	Sticker despegado	Actualizar procedimiento	incluir pruebas	MDAB			ARTURO RENE MUÑOZ TOBAR
+	1011	200022479	METR MEAB	Oxigeno fuera de Parametro	Amonestación		MEEJ	16.03.2011	16.03.2011	VICTOR MANUEL RUBIO AYALA
+	1011	200022479	METR MEAB	Oxigeno fuera de Parametro	Automatizar proceso	activar lazo de control	MEEJ	29.03.2011	29.03.2011	JOSE ANICETO PINO GIERING
+	1011	200022479	METR MEAB	Oxigeno fuera de Parametro	Actualizar procedimiento	detención en manual	MEEJ	29.03.2011	29.03.2011	MARCOS A RUBIO CASTRO
+	1011	200022483	METR MEAB	Bajo Alcohol	Actualizar procedimiento	Analizar resultados del defecto	MDAB			ALEX JOHN EYZAGUIRRE LARA
+	1011	200022487	METR MEAB	Se tapa con rosca / solicita tapon.	Cambio de lista de materiales	actualizar LM de halb	MDAB			BARBARA ARRIAGADA ARROYO
+	1011	200022487	METR MEAB	Se tapa con rosca / solicita tapon.	Actualizar procedimiento	verificar procedimiento interno	MDAB			ARTURO RENE MUÑOZ TOBAR
+	1011	200022488	METR MEAB	Cajas mal asignadas	Cambio de lista de materiales	Modificación de LM a nivel de OF	MDAB			XIMENA MUTTIZ VILCHES
+	1011	200022506	METR MEAB	Formate de Etiquetado erroneo	Modificar máquina	modificación de formato	MEEJ	16.03.2011	16.03.2011	STANKO ZNIDARCIC MUÑOZ
+	1011	200022506	METR MEAB	Formate de Etiquetado erroneo	Validar flujo de proceso	verificar flujo de autorizacion	MDAB			STANKO ZNIDARCIC MUÑOZ
+	1011	200022573	MEAB MEAB	Falla de mantencion codificador	Amonestación	amonestación por no tomar acciones	MDAB			RODRIGO ESTEBAN LOPEZ CERVERA
+	1011	200022573	MEAB MEAB	Falla de mantencion codificador	Crear flujo de proceso	crear flujo de cambio ante falla	MDAB			JOSE ANICETO PINO GIERING
+	1011	200022573	MEAB MEAB	Falla de mantencion codificador	Evaluación de técnica de máquina	evaluar mantención de codificador	MDAB			JOSE ANICETO PINO GIERING
+	1011	200022598	METR MEAB	Vino Cruzado (mezclado)	Dictar LUP al operador	capacitar	MDAB
+	1011	200022600	METR MEAB	Botellas con calcinadura en zona icono	Desarrollar proveedor	AQL	MDAB			PAMELA MURILLO QUINTANILLA
+	1011	200022640	MEAB MERE	Caja no corresponde	Implementar control	prepicking a 10 días	MEEJ	31.03.2011	31.03.2011	ROBERTO PINEDA PEREZ
+	1011	200022640	MEAB MERE	Caja no corresponde	Actualizar instructivo	IT-AB-03-02	MEEJ	31.03.2011	07.04.2011	ROBERTO PINEDA PEREZ
+	1011	200022640	MEAB MERE	Caja no corresponde	Estudio específico	Análisis de Causa de la diferencia	MEEJ	31.03.2011	07.04.2011	MAURICIO ESTEBAN NOVA FIGUEROA
+	1011	200022671	MECE CPRO MERE	Botellas sin Capsulas	Crear LUP	Correcto sellado embaje capsulas	MEEJ	24.03.2011	28.03.2011	PAULO SALAZAR FREYHOFER
+	1011	200022677	METR MEAB	Botellas humedas	Crear instructivo	Crear IT de proceso SPK	MDAB			STANKO ZNIDARCIC MUÑOZ
+	1011	200022677	METR MEAB	Botellas humedas	Actualizar estándar	Incluir valores max/min	MDAB			STANKO ZNIDARCIC MUÑOZ
+	1011	200022678	METR MEAB	Botellas/etiquetas  humedas	Actualizar estándar	actualizar IT	MDAB			STANKO ZNIDARCIC MUÑOZ
+	1011	200022678	METR MEAB	Botellas/etiquetas  humedas	Crear instructivo	Crear IT de proceso SPK	MDAB			STANKO ZNIDARCIC MUÑOZ
+	1102	200022685	METR MEAB	Partículas de vidrio en filtración	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022685	METR MEAB	Partículas de vidrio en filtración	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022685	METR MEAB	Partículas de vidrio en filtración	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022685	METR MEAB	Partículas de vidrio en filtración	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022688	METR MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB
+	1102	200022688	METR MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB
+	1102	200022688	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB
+	1102	200022688	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB
+	1102	200022689	METR MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022689	METR MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022689	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022689	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1011	200022690	MECE CPRO MERE	Color en Marca Basica Erronea	Amonestación		MEEJ	22.03.2011	22.03.2011
+	1011	200022712	METR CPRO MERE	Numero de Batch erroneo	Amonestación	Verbal	MEEJ	30.03.2011	30.03.2011
+	1103	200022713	MEAB MEAB MIMP	Mal almacenamiento	Evaluación de técnica de máquina	Se soliciat a Packaging evaluación con p	MELI	31.03.2011	31.03.2011	ARTURO RENE MUÑOZ TOBAR
+	1011	200022722	MECE CPRO MERE	Numero de Batch erroneo	Amonestación	Verbal	MEEJ	30.03.2011	30.03.2011
+	1103	200022725	MECE CAEX MERE MIMP	Etiquetas mezcladas	Crear RPI  (Reclamo Proveedor Insumo)	Aviso ZC asociado 200022724	MEEJ	23.03.2011	23.03.2011	MARCELO ANDRES PEREZ GONZALEZ
+	1011	200022733	METR MEAB	Tapas abolladas en falda	Dictar curso al operador		MEEJ	30.03.2011	30.03.2011
+	1011	200022734	METR MEAB	Tapas abolladas en falda	Dictar curso al operador		MEEJ	30.03.2011	30.03.2011
+	1011	200022735	METR MEAB	Tapas abolladas en falda	Dictar curso al operador		MEEJ	30.03.2011	30.03.2011
+	1011	200022737	METR MEAB	Tapas abolladas en falda	Dictar curso al operador		MEEJ	30.03.2011	30.03.2011
+	1011	200022739	METR MEAB	Tapas Abolladas por Membrana de  tulipa	Realizar retención		MEEJ	09.04.2011	09.04.2011
+	1011	200022739	METR MEAB	Tapas Abolladas por Membrana de  tulipa	Dictar LUP al operador		MDAB	09.04.2011	09.04.2011
+	1011	200022739	METR MEAB	Tapas Abolladas por Membrana de  tulipa	Actualizar estándar		MDAB	09.04.2011	09.04.2011
+	1011	200022839	MECE CPRO MERE	Sticker no corresponde	Amonestación		MEEJ	30.03.2011	30.03.2011
+	1011	200022844	MECE CPRO MERE	Secuencia de Batch erronea	Amonestación	Verbal	MEEJ	29.03.2011	29.03.2011
+	1011	200022856	METR MEAB	avinado defectuoso (Vino c/ agua)	Instalar alerta visual	Cubicar ollas de desconche	MDAB	29.03.2011		CRISTIAN LEONARDO ARENAS MALDONADO
+	1011	200022856	METR MEAB	avinado defectuoso (Vino c/ agua)	Realizar prueba de conocimiento		MDAB	05.04.2011		VICTOR IVAN NITOR TORRES
+	1011	200022856	METR MEAB	avinado defectuoso (Vino c/ agua)	Auditar procedimiento		MDAB	05.04.2011		VICTOR IVAN NITOR TORRES
+	1102	200022866	METR MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022866	METR MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022866	METR MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022866	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022866	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022867	METR MEAB	posible particulas de vidrio	Modificar máquina		MDAB			RICARDO E. ALDANA JARA
+	1102	200022867	METR MEAB	posible particulas de vidrio	Modificar máquina		MDAB			RICARDO E. ALDANA JARA
+	1102	200022867	METR MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022867	METR MEAB	posible particulas de vidrio	Modificar máquina		MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022867	METR MEAB	posible particulas de vidrio	Modificar máquina		MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022868	METR MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022868	METR MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022868	METR MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022868	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022868	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1011	200022879	METR MEAB	Altura etiqueta erronea	Realizar prueba de conocimiento		MEEJ	31.03.2011	31.03.2011	VICTOR IVAN NITOR TORRES
+	1011	200022879	METR MEAB	Altura etiqueta erronea	Evaluación de técnica de máquina	Por especialista	MDAB	30.03.2011		CRISTIAN LEONARDO ARENAS MALDONADO
+	1011	200022879	METR MEAB	Altura etiqueta erronea	Amonestación	Verbal	MEEJ	31.03.2011	31.03.2011
+	1011	200022879	METR MEAB	Altura etiqueta erronea	Implementar control	Por calidad	MDAB			FRANCISCO ANTONIO ASTORGA VILLAGRA
+	1011	200022911	METR MEAB	cajas manchadas bolsas con piquete.	Instalación de dispositivo de control		MDAB			CRISTIAN LEONARDO ARENAS MALDONADO
+	1102	200022913	MEAB MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022914	MEAB MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022915	MEAB MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022922	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022922	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022922	MEAB MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022922	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022922	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022924	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022924	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022924	MEAB MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022924	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022924	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022925	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022925	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022925	MEAB MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022925	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022925	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022928	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022928	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022928	MEAB MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022928	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022928	MEAB MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022931	METR MEAB	posible particulas de vidrio	Amonestación		MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022932	METR MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022958	METR MEAB	posible particulas de vidrio	Modificar máquina	Rinser	MDAB			RICARDO E. ALDANA JARA
+	1102	200022958	METR MEAB	posible particulas de vidrio	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022958	METR MEAB	posible particulas de vidrio	Devolución al Proveedor		MDAB
+	1102	200022958	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022958	METR MEAB	posible particulas de vidrio	Modificar máquina	Formatos	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022960	METR MEAB	Problemas de oxigeno y tapas sin sello	Dictar charla al operador	Nueva instrucción para L6	MDAB			SERGIO ALDO MALLEA ACEVEDO
+	1102	200022960	METR MEAB	Problemas de oxigeno y tapas sin sello	Modificar máquina	Llenadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022960	METR MEAB	Problemas de oxigeno y tapas sin sello	Modificar máquina	Roscadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200022961	METR MEAB	Botellas sin etiquetas	Implementar control	Verificar programa	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200022961	METR MEAB	Botellas sin etiquetas	Modificar máquina	Comprar formato	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1011	200022962	METR MERE	Lote erroneo (Año y dia no corresponde)	Amonestación		MEEJ	09.04.2011	09.04.2011
+	1011	200022962	METR MERE	Lote erroneo (Año y dia no corresponde)	Dictar charla al operador		MEEJ	09.04.2011	09.04.2011
+	1011	200022963	METR MEAB	Etiquetas rotas y/o arrugadas	Modificar máquina	Falta plazo	MDAB	02.04.2011		OSCAR E. MORALES ZAPATA
+	1011	200022963	METR MEAB	Etiquetas rotas y/o arrugadas	Amonestación		MEEJ	02.04.2011	02.04.2011
+	1011	200023011	METR MEAB	Tapas Abolladas	Dictar curso al operador		MEEJ	09.04.2011	10.04.2011
+	1103	200023038	MECE CPRO MERE	Color de tapa opaca	Aprobación con Observación	Autorizado por Andrés Ballesteros	MEEJ	13.04.2011	13.04.2011
+	1102	200023066	METR MEAB	Posible particulas en elinterior de bot	Devolución al Proveedor		MDAB
+	1011	200023104	MECE CPRO MERE	Bajada a Rejilla. botellas sin etiquetas	Validar flujo de proceso	Reunion con SET UP	MEEJ	14.04.2011	14.04.2011
+	1011	200023106	METR MEAB	Tapas abolladas	Crear LUP	Impartida	MEEJ	14.04.2011	14.04.2011	VICTOR MANUEL RUBIO AYALA
+	1102	200023127	METR MEAB	posible particulas de vidrio	Modificar máquina	Roscadora	MDAB			RICARDO E. ALDANA JARA
+	1102	200023127	METR MEAB	posible particulas de vidrio	Crear LUP	Para operador	MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1102	200023131	METR CPRO MEAB	botellas sin collerin	Implementar control		MDAB
+	1102	200023131	METR CPRO MEAB	botellas sin collerin	Dictar LUP al operador		MDAB			ALEJANDRO FABIAN SAN MARTIN SAN MAR
+	1011	200023141	METR MEAB	Vino Cruzado (mezclado)	Crear LUP		MDAB
+	1011	200023141	METR MEAB	Vino Cruzado (mezclado)	Crear estándar		MDAB
+	1011	200023152	METR MEAB	Vino mezclado	Estudio específico	realizar investigacion	MDAB
+	1011	200023153	MEAB MEAB	Tapas abolladas	Dictar LUP al operador		MDAB
+	1011	200023202	METR MEAB	Tapas abolladas	Crear LUP	Impartida	MEEJ	14.04.2011	14.04.2011	VICTOR MANUEL RUBIO AYALA
+	1011	200023243	METR MEAB	Vino con agua	Estudio específico	realizar investigacion	MDAB
+	1011	200023362	METR MEAB	Tapas abolladas	Crear LUP	Impartida	MEEJ	14.04.2011	14.04.2011	VICTOR MANUEL RUBIO AYALA
+	1103	200023418	MEAB MEAB	cajas sin marcas de cliente	Dictar curso al operador		MDAB
+	1103	200023419	MEAB MEAB	cajas sin marcas de cliente	Dictar curso al operador		MDAB
+	1103	200023425	MECE MEAB PTBO	material mal loteado	Verificación de autocontrol realizado		MDAB PTBO			EDUARDO ERNESTO MARQUEZ GARCIA
+	1011	20000000010	MECE CAEX MERE PTBO	Cuño no Corresponde	Crear instructivo	se solicita a proveedor crearlo	MEEJ MENE PTBO	11.12.2007	13.12.2007	GONZALO LEDESMA ARRIAGADA
+	1011	20000000022	MECE CPRO MERE	Botellas sin Sticker CS I.N RVA	Incluir en especificación del producto		MEEJ	07.12.2009	07.12.2009	RODRIGO CERDA SOTO
+	1011	20000000039	MECE CPRO MERE	Error en Altura etiquetas Fte y Rev	Cambiar operador		MEEJ	17.01.2008	17.01.2008	LUIS PEZO ANRIQUEZ
+	1011	20000000040	MECE CPRO MERE	Botellas sin Sticker  CS I.N RVA	Incluir en especificación del producto	En matriz de altura	MEEJ	09.12.2009	09.12.2009	RODRIGO CERDA SOTO
+	1102	20000000071	MECE CPRO MERE	SO2 fuera de rango	Realizar prueba de conocimiento		MEEJ	11.01.2008	14.01.2008	ORIELLE MEZA CASTIGLIONE
+	1011	20000000081	MECE CPRO MERE	SO2 libre  bajo especificación	Dictar LUP al operador	Realizar LUP.	MEEJ	02.04.2008	02.04.2008
+	1011	20000000120	MECE CPRO MERE	Fert es 2006 y  tex. explicat. pide 2007	Realizar plan 4M	Investigar quien solicito cosecha 2007	MEEJ	09.12.2009	09.12.2009
